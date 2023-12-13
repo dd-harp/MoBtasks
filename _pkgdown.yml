@@ -1,4 +1,40 @@
-url: ~
+url: https://dd-harp.github.io/MoBtasks/
 template:
   bootstrap: 5
-
+navbar:
+  left:
+  - text: Functions
+    href: reference/index.html
+  right:
+  - icon: fa-github
+    href: https://github.com/dd-harp/exDE/
+home:
+  sidebar:
+    structure:
+    - links
+    - license
+    - community
+    - citation
+    - authors
+    - dev
+    - custom_news
+    components:
+      custom_news:
+        title: Changelog
+        text: <a href="news/index.html">News</a>
+reference:
+- title: Convert
+  contents:
+  - pr2Lambda
+  - split_stratum_by_biting
+  - ssMYZ
+  - xde_eir2ni
+  - xde_eir2pr
+  - xde_pr2eir
+  - xde_pr2ni
+- title: Scaling
+  contents:
+  - xde_scaling
+  - xde_scaling_Z
+  - xde_scaling_eir
+  - xde_scaling_lambda
