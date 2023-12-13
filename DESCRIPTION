@@ -1,11 +1,21 @@
 Package: MoBtasks
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Tasks for analyzing models of mosquito-borne pathogens using exDE 
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
+Author: David L Smith 
+Maintainer: David L Smith <smitdave@uw.edu>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+URL: https://dd-harp.github.io/mobwork/
+BugReports: https://github.com/dd-harp/mobwork/issues
+Imports:
+    exDE,
+    stats
+Suggests:
+    knitr
+RoxygenNote: 7.2.3
+Roxygen: list(markdown = TRUE)
+VignetteBuilder: knitr
